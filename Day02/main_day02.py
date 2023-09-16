@@ -58,3 +58,16 @@ intf_out = print(int_float + float_int)
 print(type(intf_out))
 intf_plus = int_float + float_int
 print(type(intf_plus))
+
+
+# Mathematical operators
+# Normal orders of operation apply
+# PEMDASLR (paren, exp, mult, div, add, sub, left/right)
+print(3 + 5)    # addition
+print(3 - 5)    # subtraction
+print(3 * 5)    # multiplication
+print(6 / 3)    # division
+print(6 ** 3)   # exponent
+print(3 + 3 * 3 - 5)
+print((3 + 3) * (3 - 5))
+print(3 + (3 * (3 / 5)))
