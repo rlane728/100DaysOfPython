@@ -6,4 +6,4 @@
 - Lists
 - Nested Lists
 
-See notes.py for a genera list of working notes, see other pys for applied examples.
+See notes.py for a general list of working notes, see other pys for applied examples.
