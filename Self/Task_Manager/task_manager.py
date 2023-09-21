@@ -35,6 +35,8 @@ def deleteTask():
     os.system('clear')
     delete = (int(input("Enter the task number that you would like to delete: \n")) - 1)
     task_num.pop(delete)
+    task_status.pop(delete)
+    task_text.pop(delete)
     count_min = 1
     count_max = len(task_num)
     # print(count_max)
