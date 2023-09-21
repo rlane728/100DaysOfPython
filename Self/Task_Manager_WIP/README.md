@@ -3,6 +3,8 @@ This was a super fun exercise that I asked chatGPT to give me.  I had a lot of f
 
 It's shy on comments and has no input error handling, but it works.
 
+It is pretty jumbled, so I am going to import OS for the cls function.  And still the formatting is kinda jank.  That's OK... mission accomplished regardless
+
 ### From chatGPT...
 Of course! Here's a Python challenge to help you exercise your skills:
 

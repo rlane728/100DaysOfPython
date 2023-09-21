@@ -1,3 +1,6 @@
+# Imports
+import os
+
 # Define a list or dictionary to store tasks
 task_text = []
 task_status = []
@@ -6,6 +9,7 @@ task_num = []
 # Define functions for each operation (add_task, list_tasks, mark_task_complete, delete_task, etc.)
 
 def addTask():
+    os.system('clear')
     new_task = input("Please describe the task you would like to add to the list: \n")
     if len(task_num) == 0:
         task_num.append(1)
@@ -15,6 +19,7 @@ def addTask():
     task_status.append("Incomplete")
 
 def listTasks():
+    os.system('clear')
     count = 0
     max_count = (len(task_num))
     while count != max_count:
@@ -22,10 +27,12 @@ def listTasks():
         count += 1
 
 def completeTask():
+    os.system('clear')
     complete = (int(input("Enter the task number that you would like to mark complete: \n")) - 1)
     task_status[complete] = "Complete"
 
 def deleteTask():
+    os.system('clear')
     delete = (int(input("Enter the task number that you would like to delete: \n")) - 1)
     task_num.pop(delete)
     count_min = 1
@@ -45,7 +52,7 @@ while True:
     print("3. Mark Task as Complete")
     print("4. Delete Task")
     print("5. Quit")
-
+    print()
     choice = input("Enter your choice: ")
 
     # Implement logic to perform the selected operation based on the user's choice
