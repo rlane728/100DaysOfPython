@@ -12,6 +12,7 @@ os.system('clear')
 print(hangman_art.logo)
 input("            Press Enter to start...")
 
+# Initialize the player
 player_lives = 6
 guess_list = []
 game_over = False
